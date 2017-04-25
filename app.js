@@ -7,7 +7,7 @@ var wechat = require('./wechat/generator');
 
 var app = new Koa();
 
-app.use(wechat(config.wechat,weixin.reply)); //handler
+app.use('/wechat' , wechat(config.wechat,weixin.reply)); //handler
 
 //app.use(weixin.sendMsg);
 

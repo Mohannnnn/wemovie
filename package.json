@@ -4,18 +4,14 @@
   "description": "wemovie",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Panfen/wemovie.git"
+    "url": "git+https://github.com/fututer/wemovie.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Panfen/wemovie/issues"
-  },
-  "homepage": "https://github.com/Panfen/wemovie#readme",
   "dependencies": {
     "bluebird": "^3.5.0",
     "cheerio": "^0.22.0",
